@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        /* Base Options */
+        "target": "ES2022", // What version of JS to compile to
+        "module": "NodeNext", // What module system to use (NodeNext is modern)
+        "rootDir": "./src", // Where your TypeScript files live
+        "outDir": "./dist", // Where your compiled JavaScript files will go
+        /* Strictness & Error-Checking */
+        "strict": true, // Enables all strict type-checking options
+        "forceConsistentCasingInFileNames": true,
+        /* Module Resolution */
+        "esModuleInterop": true, // Helps with importing older 'require' modules
+        "skipLibCheck": true // Skips type-checking of declaration files
+    },
+    "include": [
+        "src/**/*"
+    ] // Tells the compiler to only look in the 'src' folder
+}
