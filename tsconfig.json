@@ -14,5 +14,5 @@
     },
     "include": [
         "src/**/*"
-    ] // Tells the compiler to only look in the 'src' folder
+, "fizzbuzz.ts"    ] // Tells the compiler to only look in the 'src' folder
 }
