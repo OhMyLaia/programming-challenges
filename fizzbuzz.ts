@@ -29,4 +29,4 @@ function fizzBuzz() {
     }
 }
 
-fizzBuzz();
+// fizzBuzz();
